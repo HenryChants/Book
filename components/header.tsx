@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useAuth } from "../pages/auth/AuthContext";
+import { useAuth } from "../app/auth/AuthContext";
 import { useState, useRef, useEffect } from "react";
 
 const navItems = [

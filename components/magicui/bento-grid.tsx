@@ -1,7 +1,7 @@
 import { ChevronRightIcon } from "lucide-react";
 import { ComponentPropsWithoutRef, ReactNode } from "react";
 import { Button } from "../ui/button";
-import { cn } from "../../../lib/utils";
+import { cn } from "../../lib/utils";
 
 interface BentoGridProps extends ComponentPropsWithoutRef<"div"> {
   children: ReactNode;

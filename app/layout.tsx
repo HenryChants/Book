@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Nunito } from "next/font/google";
-import LayoutClientWrapper from "./LayoutClientWrapper";
+import LayoutClientWrapper from "./pages/LayoutClientWrapper";
 import { AuthProvider } from "./auth/AuthContext";
 import "./globals.css";
 
